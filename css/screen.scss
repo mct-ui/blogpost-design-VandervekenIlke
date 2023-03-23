@@ -546,7 +546,11 @@ a:active {
     Scope: Content
     Specific behaviour inside s-content class
 */
+.s-content *+h2 {
 
+  margin-top: $space-xl;
+
+}
 /*---------------------------------------/*
  # UTILITIES
 /*---------------------------------------*/
