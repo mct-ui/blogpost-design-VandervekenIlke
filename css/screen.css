@@ -88,6 +88,15 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(198.0786026201, 10%, 10%);
+}
+
 p,
 ol,
 ul,
@@ -207,7 +216,6 @@ a:active {
   flex-basis: 100%;
 }
 
-/* gutter modifiers, these affect o-layout__item too */
 .o-layout--gutter {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
@@ -782,4 +790,4 @@ a:active {
   .u-6-of-6-bp5 {
     flex-basis: 100% !important;
   }
-}
+}/*# sourceMappingURL=screen.css.map */

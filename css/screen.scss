@@ -251,7 +251,14 @@ h6 {
   line-height: calc($baseline * 3);
   margin-bottom: $space-m;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-text;
+}
 p,
 ol,
 ul,
@@ -373,8 +380,15 @@ a:active {
 .o-layout__item {
   flex-basis: 100%;
 }
-
-/* gutter modifiers, these affect o-layout__item too */
+// .o-layout--gutter>.o-layout__item {
+//   padding-left: 12px;
+//   padding-right: 12px;
+// }
+// .o-layout--gutter {
+//   margin-left: -12px;
+//   margin-right: 12px;
+// }
+// /* gutter modifiers, these affect o-layout__item too */
 
 .o-layout--gutter {
   margin-left: calc($grid-gutter / -2);
